@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Picker</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div class="holder">
+        <form class="top-menu" id="getmycolor" method="get">
+            <input type="color" name="pickColor" id="pickColor">
+            <select name="colorMode" id="colorMode">
+                <option value="monochrome">MonoChrome</option>
+                <option value="monochrome-dark">MonoChrome-dark</option>
+                <option value="monochrome-light">MonoChrome-light</option>
+                <option value="analogic">Analogic</option>
+                <option value="complement">Complement</option>
+                <option value="analogic-complement">Analogic-complement</option>
+                <option value="triad">Triad</option>
+            </select>
+            <input type="submit" value="Get color scheme">
+        </form>
+        <div class="colors" id="colors">
+            <div style="background-color:#000000;" class="color"></div>
+            <div style="background-color:#1A1919;" class="color"></div>
+            <div style="background-color:#343232;" class="color"></div>
+            <div style="background-color:#4F4A4A;" class="color"></div>
+            <div style="background-color:#6A6262;" class="color"></div>
+        </div>
+        <div class="color-caption" id="color-caption">
+            <p> #000000</p>
+            <p> #1A1919</p>
+            <p> #343232</p>
+            <p> #4F4A4A</p>
+            <p> #6A6262</p>
+        </div>
+    </div>
+</body>
+</html>
+

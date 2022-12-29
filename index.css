@@ -1,0 +1,40 @@
+body{
+    margin: 0 auto;
+
+}
+.holder{
+    position: absolute;
+    margin: 0 auto;
+    height: 100vh;
+    width: 100vw;
+}
+.top-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1em;
+}
+input, 
+select, 
+button{
+    height: 40px;
+}
+select{
+    background-color: whitesmoke;
+    border-radius: 5px;
+    width: 185px;
+}
+.colors{
+    display: flex;
+}
+.color{
+    height: 380px;
+    width: 25%;
+}
+.color-caption{
+    display: flex;
+}
+.color-caption p{
+    width: 25%;
+    text-align: center;
+}
